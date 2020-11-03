@@ -1,6 +1,7 @@
 export const formatNumber = (number: number) => {
   return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 };
+
 export const GetTotalAmountOfMoney = (data: Array<any>) => {
   let sum = 0;
   for (let item of data) {

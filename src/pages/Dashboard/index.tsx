@@ -7,7 +7,7 @@ import {
   TooltipRender,
 } from '@syncfusion/ej2-react-charts';
 
-const Dashbroad: React.FC<{}> = () => {
+const Dashboard = () => {
   return (
     <SmithchartComponent id="smithchart">
       <Inject services={[TooltipRender]} />
@@ -33,4 +33,4 @@ const Dashbroad: React.FC<{}> = () => {
     </SmithchartComponent>
   );
 };
-export default Dashbroad;
+export default Dashboard;

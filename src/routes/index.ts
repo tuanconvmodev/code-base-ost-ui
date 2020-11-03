@@ -1,6 +1,6 @@
 import Loadable from 'react-loadable';
 import Preloader from '../components/Preloader';
-import Dashbroad from '../pages/Dashbroad';
+import Dashboard from '../pages/Dashboard';
 export interface IRouter {
   path: string;
   exact?: boolean;
@@ -26,7 +26,7 @@ const routes: IRouter[] = [
     exact: true,
     path: '/dashbroad',
     name: 'Dashbroad',
-    component: Dashbroad,
+    component: Dashboard,
     navigatePath: '/login',
     isProtected: true,
   },
