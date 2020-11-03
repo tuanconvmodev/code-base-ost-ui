@@ -1,0 +1,1815 @@
+@import "variables";
+.e-search:before{
+  content:'\e993';
+}
+.e-Pdf_Export:before {
+  content: "\e240";
+}
+
+.e-CSV_Export:before {
+  content: "\e241";
+}
+
+.e-Excel_Export:before {
+  content: "\e242";
+}
+
+.e-MT_Daterange:before {
+  content: "\e245";
+}
+
+.e-BT_Excelclear:before {
+  content: "\e248";
+}
+
+.e-BT_Excelfilter:before {
+  content: "\e251";
+}
+
+.e-Bullet_Arrow:before {
+  content: "\e253";
+}
+
+.e-Bullet_Circle:before {
+  content: "\e254";
+}
+
+.e-None2:before {
+  content: "\e256";
+}
+
+.e-Bullet_Tick:before {
+  content: "\e259";
+}
+
+.e-Border_DiagonalUp:before {
+  content: "\e262";
+}
+
+.e-Border_DiagonalDown:before {
+  content: "\e265";
+}
+
+.e-Bullet_Flower:before {
+  content: "\e267";
+}
+
+.e-Bullet_Dot:before {
+  content: "\e270";
+}
+
+.e-Bullet_Square:before {
+  content: "\e271";
+}
+
+.e-MT_RightArrow:before {
+  content: "\e300";
+}
+
+.e-MT_LeftArrow:before {
+  content: "\e302";
+}
+
+.e-MT_DownArrow:before {
+  content: "\e304";
+}
+
+.e-MT_Uparrow:before {
+  content: "\e306";
+}
+
+.e-MT_Recurrence:before {
+  content: "\e308";
+}
+
+.e-MT_RecurrenceEdited:before {
+  content: "\e30a";
+}
+
+.e-MT_Location:before {
+  content: "\e30c";
+}
+
+.e-MT_Description:before {
+  content: "\e30d";
+}
+
+.e-MT_Timezone:before {
+  content: "\e30e";
+}
+
+.e-MT_Today:before {
+  content: "\e322";
+}
+
+.e-MT_MonthAgenda:before {
+  content: "\e313";
+}
+
+.e-MT_Workweek:before {
+  content: "\e314";
+}
+
+.e-MT_WeekView:before {
+  content: "\e315";
+}
+
+.e-MT_DayView:before {
+  content: "\e31b";
+}
+
+.e-MT_AgendaView:before {
+  content: "\e31d";
+}
+
+.e-MT_DateTime:before {
+  content: "\e421";
+}
+
+.e-MT_Resource:before {
+  content: "\e424";
+}
+
+.e-MT_TimeLineDay:before {
+  content: "\ea85";
+}
+
+.e-MT_TimeLineWeek:before {
+  content: "\ea88";
+}
+
+.e-MT_TimeLineWorkWeek:before {
+  content: "\ea8b";
+}
+
+.e-MT_TimeLineMonth:before {
+  content: "\ea8e";
+}
+
+.e-table-02:before {
+  content: "\e705";
+}
+
+.e-copy:before {
+  content: "\e70a";
+}
+
+.e-th-small:before {
+  content: "\e714";
+}
+
+.e-save-02:before {
+  content: "\e735";
+}
+
+.e-align-left:before {
+  content: "\e75e";
+}
+
+.e-edit-06:before {
+  content: "\e7a3";
+}
+
+.e-close-wf:before {
+  content: "\e7a7";
+}
+
+.e-word-export:before {
+  content: "\e7b0";
+}
+
+.e-cross-close:before {
+  content: "\e7e9";
+}
+
+.e-filter:before {
+  content: "\e7ee";
+}
+
+.e-plus:before {
+  content: "\e7f9";
+}
+
+.e-close:before {
+  content: "\e7fc";
+}
+
+.e-check-mark-01:before {
+  content: "\e7ff";
+}
+
+.e-printer-01:before {
+  content: "\e813";
+}
+
+.e-edit-04:before {
+  content: "\e81e";
+}
+
+.e-add-new:before {
+  content: "\e823";
+}
+
+.e-close-01:before {
+  content: "\e825";
+}
+
+.e-FT_Dropdown_Arrow:before {
+  content: "\e36a";
+}
+
+.e-arrowhead-up-01:before {
+  content: "\e82a";
+}
+
+.e-arrowhead-down-01:before {
+  content: "\e82e";
+}
+
+.e-arrowhead-up:before {
+  content: "\e834";
+}
+
+.e-arrowhead-down:before {
+  content: "\e83d";
+}
+
+.e-arrow-down-02:before {
+  content: "\e83f";
+}
+
+.e-arrow-up-01:before {
+  content: "\e840";
+}
+
+.e-arrow-head-right-02:before {
+  content: "\e844";
+}
+
+.e-arrowhead-right:before {
+  content: "\e848";
+}
+
+.e-arrowhead-left:before {
+  content: "\e84b";
+}
+
+.e-delete-05:before {
+  content: "\e84e";
+}
+
+.e-arrow-sans-left-01:before {
+  content: "\e854";
+}
+
+.e-arrow-sans-right-01:before {
+  content: "\e859";
+}
+
+.e-aroow-left-01:before {
+  content: "\e85b";
+}
+
+.e-navigation-right:before {
+  content: "\e85f";
+}
+
+.e-Sorting-m:before {
+  content: "\e890";
+}
+
+.e-edit-icon1:before {
+  content: "\e891";
+}
+
+.e-first-pagenav:before {
+  content: "\e896";
+}
+
+.e-lst-page-nav:before {
+  content: "\e897";
+}
+
+.e-temp-dt:before {
+  content: "\e901";
+}
+
+.e-Bottom-icon:before {
+  content: "\e904";
+}
+
+.e-Filter:before {
+  content: "\e909";
+}
+
+.e-Top-icon:before {
+  content: "\e910";
+}
+
+.e-nxt-pg-icon:before {
+  content: "\e913";
+}
+
+.e-down-arrow2:before {
+  content: "\e916";
+}
+
+.e-grp-del:before {
+  content: "\e917";
+}
+
+.e-Up-arrow:before {
+  content: "\e918";
+}
+
+.e-Dwn-arrow3:before {
+  content: "\e919";
+}
+
+.e-fltr-can2:before {
+  content: "\e920";
+}
+
+.e-prev-icon:before {
+  content: "\e921";
+}
+
+.e-Groupicon:before {
+  content: "\e926";
+}
+
+.e-Selection-m:before {
+  content: "\e930";
+}
+
+.e-Clear_input_001:before {
+  content: "\e932";
+}
+
+.e-Checbox_selection:before {
+  content: "\e933";
+}
+
+.e-Intermediate:before {
+  content: "\e934";
+}
+
+.e-MT_Left_Arrow:before {
+  content: "\e937";
+}
+
+.e-BT_Edit:before {
+  content: "\e944";
+}
+
+.e-MT_Clear:before {
+  content: "\e945";
+}
+
+.e-MT_Right_Arrow:before {
+  content: "\e956";
+}
+
+.e-MT_Addflat:before {
+  content: "\e963";
+}
+
+.e-MT_Bottomfil:before {
+  content: "\e969";
+}
+
+.e-MT_remove:before {
+  content: "\e974";
+}
+
+.e-MT_Backward:before {
+  content: "\e977";
+}
+
+.e-MT_Menu:before {
+  content: "\e984";
+}
+
+.e-MT_Search:before {
+  content: "\e993";
+}
+
+.e-MT_month:before {
+  content: "\e93c";
+}
+
+.e-MT_Delete:before {
+  content: "\e94a";
+}
+
+.e-MT_Bottom_Arrow:before {
+  content: "\e94d";
+}
+
+.e-MT_Save:before {
+  content: "\e98e";
+}
+
+.e-MT_menu1:before {
+  content: "\e99a";
+}
+
+.e-MT_reload:before {
+  content: "\e99d";
+}
+
+.e-MT_Close:before {
+  content: "\e208";
+}
+
+.e-MT_Time:before {
+  content: "\e20c";
+}
+
+.e-Column_chooser:before {
+  content: "\e21e";
+}
+
+.e-Treeview:before {
+  content: "\e22a";
+}
+
+.e-Treeview2:before {
+  content: "\e22b";
+}
+
+.e-Treeview1:before {
+  content: "\e22c";
+}
+
+.e-Treeview3:before {
+  content: "\e22d";
+}
+
+.e-MT_Tree_expand:before {
+  content: "\e22f";
+}
+
+.e-Materail:before {
+  content: "\e430";
+}
+
+.e-Material_Play:before {
+  content: "\e324";
+}
+
+.e-Material_Pause:before {
+  content: "\e326";
+}
+
+.e-ParaOptiondown1:before {
+  content: "\e274";
+}
+
+.e-TextSearch:before {
+  content: "\e275";
+}
+
+.e-InsideHorizondalBorders:before {
+  content: "\e276";
+}
+
+.e-RestartAt1:before {
+  content: "\e277";
+}
+
+.e-OpenHyperlink:before {
+  content: "\e278";
+}
+
+.e-CutData:before {
+  content: "\e279";
+}
+
+.e-CopyData:before {
+  content: "\e280";
+}
+
+.e-TopBorder:before {
+  content: "\e281";
+}
+
+.e-DeleteColumns:before {
+  content: "\e282";
+}
+
+.e-DeleteRows:before {
+  content: "\e283";
+}
+
+.e-InsertRight:before {
+  content: "\e284";
+}
+
+.e-InsertLeft:before {
+  content: "\e285";
+}
+
+.e-RemoveHyperlink:before {
+  content: "\e286";
+}
+
+.e-InsideVerticalBorders:before {
+  content: "\e287";
+}
+
+.e-RightBorder:before {
+  content: "\e288";
+}
+
+.e-EditHyperlink:before {
+  content: "\e289";
+}
+
+.e-Hyperlink:before {
+  content: "\e290";
+}
+
+.e-LeftBorders:before {
+  content: "\e291";
+}
+
+.e-DeleteTable:before {
+  content: "\e292";
+}
+
+.e-TableProperties:before {
+  content: "\e294";
+}
+
+.e-CopyHyperlink:before {
+  content: "\e295";
+}
+
+.e-BottomBorder:before {
+  content: "\e298";
+}
+
+.e-ClipboardPaste:before {
+  content: "\e501";
+}
+
+.e-ContinueNumbering:before {
+  content: "\e503";
+}
+
+.e-InsertBelow:before {
+  content: "\e505";
+}
+
+.e-InsertAbove:before {
+  content: "\e506";
+}
+
+.e-BorderNone:before {
+  content: "\e507";
+}
+
+.e-BorderBox:before {
+  content: "\e509";
+}
+
+.e-All:before {
+  content: "\e511";
+}
+
+.e-TableAlignRight:before {
+  content: "\e515";
+}
+
+.e-CustomBorder:before {
+  content: "\e516";
+}
+
+.e-TableAlignLeft:before {
+  content: "\e517";
+}
+
+.e-TableAlignCenter:before {
+  content: "\e518";
+}
+
+.e-LineVerysmall:before {
+  content: "\e520";
+}
+
+.e-Linenormal:before {
+  content: "\e521";
+}
+
+.e-Linesmall:before {
+  content: "\e522";
+}
+
+.e-ParaOptionup1:before {
+  content: "\e523";
+}
+
+.e-TextBottom:before {
+  content: "\e525";
+}
+
+.e-TextCenter:before {
+  content: "\e526";
+}
+
+.e-TextTop:before {
+  content: "\e527";
+}
+
+.e-MT_ClearFormat:before {
+  content: "\e331";
+}
+
+.e-MT_Strikethrough:before {
+  content: "\e332";
+}
+
+.e-MT_Uppercase:before {
+  content: "\e333";
+}
+
+.e-MT_Justify:before {
+  content: "\e334";
+}
+
+.e-MT_Image:before {
+  content: "\e335";
+}
+
+.e-MT_Resize:before {
+  content: "\e336";
+}
+
+.e-MT_Minimise:before {
+  content: "\e337";
+}
+
+.e-MT_EditLink:before {
+  content: "\e338";
+}
+
+.e-MT_Bold:before {
+  content: "\e339";
+}
+
+.e-MT_AlignLeft:before {
+  content: "\e33a";
+}
+
+.e-MT_Cut:before {
+  content: "\e33b";
+}
+
+.e-MT_AlternativeText:before {
+  content: "\e33c";
+}
+
+.e-MT_Copy:before {
+  content: "\e33d";
+}
+
+.e-MT_Remove:before {
+  content: "\e33e";
+}
+
+.e-MT_IncreaseIndent:before {
+  content: "\e33f";
+}
+
+.e-MT_ClearAll:before {
+  content: "\e340";
+}
+
+.e-MT_Undo:before {
+  content: "\e341";
+}
+
+.e-MT_FullScreen:before {
+  content: "\e342";
+}
+
+.e-MT_Underline:before {
+  content: "\e343";
+}
+
+.e-MT_UnorderedList:before {
+  content: "\e344";
+}
+
+.e-MT_Preview:before {
+  content: "\e345";
+}
+
+.e-MT_OrderedList:before {
+  content: "\e346";
+}
+
+.e-MT_Lowercase:before {
+  content: "\e347";
+}
+
+.e-MT_RemoveLink:before {
+  content: "\e348";
+}
+
+.e-MT_ZoomIn:before {
+  content: "\e349";
+}
+
+.e-MT_OpenLink:before {
+  content: "\e34a";
+}
+
+.e-MT_Print:before {
+  content: "\e34b";
+}
+
+.e-MT_FontColor:before {
+  content: "\e34c";
+}
+
+.e-MT_AlignRight:before {
+  content: "\e34d";
+}
+
+.e-MT_CreateLink:before {
+  content: "\e34e";
+}
+
+.e-MT_ViewSide:before {
+  content: "\e34f";
+}
+
+.e-MT_CodeView:before {
+  content: "\e350";
+}
+
+.e-MT_ZoomOut:before {
+  content: "\e351";
+}
+
+.e-MT_Superscript:before {
+  content: "\e352";
+}
+
+.e-MT_Para:before {
+  content: "\e353";
+}
+
+.e-MT_Redo:before {
+  content: "\e354";
+}
+
+.e-MT_Paste:before {
+  content: "\e355";
+}
+
+.e-MT_InsertCode:before {
+  content: "\e356";
+}
+
+.e-MT_Subscript:before {
+  content: "\e357";
+}
+
+.e-MT_Display:before {
+  content: "\e358";
+}
+
+.e-MT_Replace:before {
+  content: "\e359";
+}
+
+.e-MT_Italic:before {
+  content: "\e35a";
+}
+
+.e-MT_Caption:before {
+  content: "\e35b";
+}
+
+.e-MT_Backgroundcolor:before {
+  content: "\e35c";
+}
+
+.e-MT_DecreaseIndent:before {
+  content: "\e35d";
+}
+
+.e-MT_AlignCenter:before {
+  content: "\e35e";
+}
+
+.e-MT_FontName:before {
+  content: "\e35f";
+}
+
+.e-DragAndDrop:before {
+  content: "\e330";
+}
+
+.e-FilterFields:before {
+  content: "\e434";
+}
+
+.e-New_Column:before {
+  content: "\ea74";
+}
+
+.e-New_Row:before {
+  content: "\ea75";
+}
+
+.e-Sum:before {
+  content: "\ea76";
+}
+
+.e-Filter_B:before {
+  content: "\ea77";
+}
+
+.e-Close_F:before {
+  content: "\ea7f";
+}
+
+.e-Clearfilter_M:before {
+  content: "\ea82";
+}
+
+.e-Ok:before {
+  content: "\ea84";
+}
+
+.e-AlignBottom:before {
+  content: "\ea91";
+}
+
+.e-InsertRowAbove:before {
+  content: "\ea92";
+}
+
+.e-InsertRowBelow:before {
+  content: "\ea93";
+}
+
+.e-AlignCenter:before {
+  content: "\ea94";
+}
+
+.e-DeleteColumn:before {
+  content: "\ea95";
+}
+
+.e-DeleteRow:before {
+  content: "\ea96";
+}
+
+.e-InsertColumnLeft:before {
+  content: "\ea97";
+}
+
+.e-AlignTop:before {
+  content: "\ea98";
+}
+
+.e-InsertColumnRight:before {
+  content: "\ea99";
+}
+
+.e-EditProperties:before {
+  content: "\ea9a";
+}
+
+.e-VerticalAlignment:before {
+  content: "\ea9b";
+}
+
+.e-AddColumn:before {
+  content: "\ea9e";
+}
+
+.e-Style:before {
+  content: "\ea9f";
+}
+
+.e-Tb_Delete:before {
+  content: "\eb00";
+}
+
+.e-AddRow:before {
+  content: "\eb02";
+}
+
+.e-Header:before {
+  content: "\eb03";
+}
+
+.e-Tab_More:before {
+  content: "\eb04";
+}
+
+.e-Resize:before {
+  content: "\eb05";
+}
+
+.e-M_PV_Open:before {
+  content: "\ec04";
+}
+
+.e-M_PV_Firstpage:before {
+  content: "\ec05";
+}
+
+.e-M_PV_Previous:before {
+  content: "\ec06";
+}
+
+.e-M_PV_Next:before {
+  content: "\ec07";
+}
+
+.e-M_PV_Lastpage:before {
+  content: "\ec08";
+}
+
+.e-M_PV_Zoomout:before {
+  content: "\ec09";
+}
+
+.e-M_PV_Zoomin:before {
+  content: "\ec0a";
+}
+
+.e-M_PV_Download:before {
+  content: "\ec0b";
+}
+
+.e-M_PV_Bookmark:before {
+  content: "\ec0c";
+}
+
+.e-M_PV_Search:before {
+  content: "\ec0d";
+}
+
+.e-M_PV_TextAnnotation:before {
+  content: "\ec0e";
+}
+
+.e-M_PV_Close:before {
+  content: "\ec0f";
+}
+
+.e-M_PV_Comment:before {
+  content: "\ec10";
+}
+
+.e-M_PV_Save:before {
+  content: "\ec11";
+}
+
+.e-M_PV_AlignLeft:before {
+  content: "\ec12";
+}
+
+.e-M_PV_Freehand:before {
+  content: "\ec13";
+}
+
+.e-M_PV_Undo:before {
+  content: "\ec14";
+}
+
+.e-M_PV_Highlight:before {
+  content: "\ec15";
+}
+
+.e-M_PV_More:before {
+  content: "\ec16";
+}
+
+.e-M_PV_Underline:before {
+  content: "\ec17";
+}
+
+.e-M_PV_Strikethrough:before {
+  content: "\ec18";
+}
+
+.e-M_PV_Paint:before {
+  content: "\ec19";
+}
+
+.e-M_PV_Pan:before {
+  content: "\ec1a";
+}
+
+.e-M_PV_Opacity:before {
+  content: "\ec1b";
+}
+
+.e-M_PV_Delete:before {
+  content: "\ec1c";
+}
+
+.e-M_PV_Cursor:before {
+  content: "\ec1d";
+}
+
+.e-M_PV_RightArrow:before {
+  content: "\ec1e";
+}
+
+.e-M_PV_Strokecolor:before {
+  content: "\ec1f";
+}
+
+.e-M_PV_Print:before {
+  content: "\ec20";
+}
+
+.e-M_PV_Redo:before {
+  content: "\ec21";
+}
+
+.e-M_PV_Fontcolor:before {
+  content: "\ec22";
+}
+
+.e-M_PV_Shapes:before {
+  content: "\ec23";
+}
+
+.e-M_PV_LeftArrow:before {
+  content: "\ec24";
+}
+
+.e-M_PV_Strokeweight:before {
+  content: "\ec25";
+}
+
+.e-M_PV_AnnotaionEdit:before {
+  content: "\ec26";
+}
+
+.e-M_PV_Thumbnail:before {
+  content: "\ec27";
+}
+
+.e-M_PV_Stamp:before {
+  content: "\ec28";
+}
+
+.e-M_PV_Pagebreak:before {
+  content: "\ec29";
+}
+
+.e-M_PV_NewDocument:before {
+  content: "\ec2a";
+}
+
+.e-M_Collapse:before {
+  content: "\e554";
+}
+
+.e-M_Expand:before {
+  content: "\e556";
+}
+
+.e-DoubleResize_2:before {
+  content: "\e557";
+}
+
+.e-DoubleResize_1:before {
+  content: "\e558";
+}
+
+.e-SingleResize_1:before {
+  content: "\e559";
+}
+
+.e-SingleResize_3:before {
+  content: "\e56a";
+}
+
+.e-SingleResize_2:before {
+  content: "\e56b";
+}
+
+.e-SingleResize_4:before {
+  content: "\e56c";
+}
+
+.e-DragandDrop:before {
+  content: "\e903";
+}
+
+.e-ArrowUp:before {
+  content: "\e56d";
+}
+
+.e-ArrowDown:before {
+  content: "\e56e";
+}
+
+.e-Arrowright:before {
+  content: "\e56f";
+}
+
+.e-ArrowLeft:before {
+  content: "\e570";
+}
+
+.e-Gripper:before {
+  content: "\e571";
+}
+
+.e-New_FilterActive:before {
+  content: "\ebb3";
+}
+
+.e-MT_Code:before {
+  content: "\e907";
+}
+
+.e-MT_Grid:before {
+  content: "\e600";
+}
+
+.e-Paste:before {
+  content: "\e601";
+}
+
+.e-Delete:before {
+  content: "\e602";
+}
+
+.e-MT_Download:before {
+  content: "\e603";
+}
+
+.e-Cut:before {
+  content: "\e604";
+}
+
+.e-MT_List:before {
+  content: "\e605";
+}
+
+.e-MT_Refresh:before {
+  content: "\e606";
+}
+
+.e-MT_info:before {
+  content: "\e607";
+}
+
+.e-MT_Rightarrow:before {
+  content: "\e608";
+}
+
+.e-MT_OpenFolder:before {
+  content: "\e609";
+}
+
+.e-Clear:before {
+  content: "\e60a";
+}
+
+.e-MT_NewFolder:before {
+  content: "\e60b";
+}
+
+.e-MT_Rename:before {
+  content: "\e60c";
+}
+
+.e-Copy:before {
+  content: "\e60d";
+}
+
+.e-Search:before {
+  content: "\e60e";
+}
+
+.e-MT_Upload:before {
+  content: "\e60f";
+}
+
+.e-MT_Back:before {
+  content: "\e610";
+}
+
+.e-MT_SelectAll:before {
+  content: "\e611";
+}
+
+.e-MT_Sort:before {
+  content: "\e612";
+}
+
+.e-MT_Option:before {
+  content: "\e613";
+}
+
+.e-MT_Tick:before {
+  content: "\e614";
+}
+
+.e-M_Breadcrumb:before {
+  content: "\e615";
+}
+
+.e-M_ExcelExport:before {
+  content: "\e700";
+}
+
+.e-M_CSVExport:before {
+  content: "\e701";
+}
+
+.e-M_Save:before {
+  content: "\e703";
+}
+
+.e-M_Saveas:before {
+  content: "\e704";
+}
+
+.e-M_Export:before {
+  content: "\e711";
+}
+
+.e-M_Delete:before {
+  content: "\e706";
+}
+
+.e-M_GrandTotal:before {
+  content: "\e707";
+}
+
+.e-M_Grid:before {
+  content: "\e708";
+}
+
+.e-M_Subtotal:before {
+  content: "\e709";
+}
+
+.e-M_NewReport:before {
+  content: "\e712";
+}
+
+.e-M_NumberFormatting:before {
+  content: "\e70b";
+}
+
+.e-M_Rename:before {
+  content: "\e70c";
+}
+
+.e-M_PDFExport:before {
+  content: "\e70d";
+}
+
+.e-M_Fullscreen:before {
+  content: "\e70e";
+}
+
+.e-M_Chart:before {
+  content: "\e70f";
+}
+
+.e-M_Load:before {
+  content: "\e710";
+}
+
+.e-FontType:before {
+  content: "\e273";
+}
+
+.e-M_Close:before {
+  content: "\eb36";
+}
+
+.e-M_LineSpacing:before {
+  content: "\eb37";
+}
+
+.e-M_Lock:before {
+  content: "\eb3a";
+}
+
+.e-OutsideBorder:before {
+  content: "\eb66";
+}
+
+.e-M_Link:before {
+  content: "\eb3c";
+}
+
+.e-M_AlignBottom:before {
+  content: "\eb3d";
+}
+
+.e-M_Table:before {
+  content: "\eb3e";
+}
+
+.e-M_TableOfContent:before {
+  content: "\eb41";
+}
+
+.e-M_PageNumber:before {
+  content: "\eb43";
+}
+
+.e-M_Bold:before {
+  content: "\eb47";
+}
+
+.e-M_AlignTop:before {
+  content: "\eb49";
+}
+
+.e-M_AlignCenterTable:before {
+  content: "\eb4a";
+}
+
+.e-M_PageSetup:before {
+  content: "\eb4c";
+}
+
+.e-M_StrokeStyle:before {
+  content: "\eb4d";
+}
+
+.e-M_Image:before {
+  content: "\eb4f";
+}
+
+.e-M_Bookmark:before {
+  content: "\eb51";
+}
+
+.e-M_Header:before {
+  content: "\eb53";
+}
+
+.e-M_Bullets:before {
+  content: "\eb5b";
+}
+
+.e-M_ShowHideProperty:before {
+  content: "\eb5d";
+}
+
+.e-M_AlignRight:before {
+  content: "\eb5f";
+}
+
+.e-M_Footer:before {
+  content: "\eb60";
+}
+
+.e-AllBorders:before {
+  content: "\eb95";
+}
+
+.e-InsideBorders:before {
+  content: "\eb88";
+}
+
+.e-Cell:before {
+  content: "\eb93";
+}
+
+.e-M_AlignToptable:before {
+  content: "\eb35";
+}
+
+.e-M_AlignBottomtable:before {
+  content: "\eb0e";
+}
+
+.e-M_AlignCentertable:before {
+  content: "\eb0d";
+}
+
+.e-Selection:before {
+  content: "\e935";
+}
+
+.e-M_Break:before {
+  content: "\eba6";
+}
+
+.e-M_PageBreak:before {
+  content: "\eba0";
+}
+
+.e-M_SectionBreak:before {
+  content: "\eba2";
+}
+
+.e-AutoFit:before {
+  content: "\eba8";
+}
+
+.e-FixedColumnWidth:before {
+  content: "\eba9";
+}
+
+.e-AutoFitWindow:before {
+  content: "\ebaa";
+}
+
+.e-BringForward:before {
+  content: "\e5a1";
+}
+
+.e-BringFront:before {
+  content: "\e5a2";
+}
+
+.e-Sendback:before {
+  content: "\e5a3";
+}
+
+.e-SendBackward:before {
+  content: "\e5a4";
+}
+
+.e-Ungroup:before {
+  content: "\e5a6";
+}
+
+.e-Group:before {
+  content: "\e5a7";
+}
+
+.e-Order:before {
+  content: "\e4a4";
+}
+
+.e-M_SingleUpArrow:before {
+  content: "\e651";
+}
+
+.e-M_SingleDownArrow:before {
+  content: "\e652";
+}
+
+.e-M_SingleRightArrow:before {
+  content: "\e653";
+}
+
+.e-M_SingleLeftArrow:before {
+  content: "\e654";
+}
+
+.e-M_DoubleRightArrow:before {
+  content: "\e655";
+}
+
+.e-M_DoubleLeftArrow:before {
+  content: "\e656";
+}
+
+.e-ZoomToFit:before {
+  content: "\e657";
+}
+
+.e-AddAbove:before {
+  content: "\e658";
+}
+
+.e-AddBelow:before {
+  content: "\e659";
+}
+
+.e-M_Line:before {
+  content: "\e668";
+}
+
+.e-M_Arrow:before {
+  content: "\e669";
+}
+
+.e-M_Rectangle:before {
+  content: "\e670";
+}
+
+.e-M_Circle:before {
+  content: "\e671";
+}
+
+.e-M_Pentagan:before {
+  content: "\e672";
+}
+
+.e-M_Length:before {
+  content: "\e673";
+}
+
+.e-M_Perimeter:before {
+  content: "\e674";
+}
+
+.e-M_Area:before {
+  content: "\e675";
+}
+
+.e-M_Radius:before {
+  content: "\e676";
+}
+
+.e-M_Volume:before {
+  content: "\e677";
+}
+
+.e-M_ChangeScaleRatio:before {
+  content: "\e678";
+}
+
+.e-M_Properties:before {
+  content: "\e679";
+}
+
+.e-M_Comment:before {
+  content: "\e680";
+}
+
+.e-ThumbsDown:before {
+  content: "\e681";
+}
+
+.e-ThumbsUp:before {
+  content: "\e682";
+}
+
+.e-ThumbsDown1:before {
+  content: "\e683";
+}
+
+.e-JPGExport:before {
+  content: "\e713";
+}
+
+.e-PNGExport:before {
+  content: "\e715";
+}
+
+.e-SVGExport:before {
+  content: "\e716";
+}
+
+.e-M_ConditionalFormatting:before {
+  content: "\e725";
+}
+
+.e-M_FormulaFunction:before {
+  content: "\e717";
+}
+
+.e-Hideheadings:before {
+  content: "\e718";
+}
+
+.e-HideGridlines:before {
+  content: "\e719";
+}
+
+.e-M_Hide:before {
+  content: "\e721";
+}
+
+.e-MsExcel97:before {
+  content: "\e726";
+}
+
+.e-ExportCSV:before {
+  content: "\e727";
+}
+
+.e-MDX:before {
+  content: "\e724";
+}
+
+.e-Format_M:before {
+  content: "\e728";
+}
+
+.e-Openfolder1:before {
+  content: "\e65f";
+}
+
+.e-Namedset:before {
+  content: "\e65d";
+}
+
+.e-O-Attribute:before {
+  content: "\e65c";
+}
+
+.e-Dimension:before {
+  content: "\e65b";
+}
+
+.e-Level1:before {
+  content: "\e65a";
+}
+
+.e-Level2:before {
+  content: "\e662";
+}
+
+.e-Level3:before {
+  content: "\e65e";
+}
+
+.e-Level4:before {
+  content: "\e660";
+}
+
+.e-Level5:before {
+  content: "\e661";
+}
+
+.e-UserDefined:before {
+  content: "\e663";
+}
+
+.e-KPI:before {
+  content: "\e664";
+}
+
+.e-M_SortDown:before {
+  content: "\e665";
+}
+
+.e-M_SortNone:before {
+  content: "\e666";
+}
+
+.e-M_SortUp:before {
+  content: "\e667";
+}
+
+.e-CalculatedMember:before {
+  content: "\e729";
+}
+
+.e-CustomSort:before {
+  content: "\e732";
+}
+
+.e-SortDescending:before {
+  content: "\e733";
+}
+
+.e-SortAscending:before {
+  content: "\e734";
+}
+
+.e-AddComment:before {
+  content: "\e814";
+}
+
+.e-Reply:before {
+  content: "\e815";
+}
+
+.e-SendArrow:before {
+  content: "\e816";
+}
+
+.e-CommentMark:before {
+  content: "\e817";
+}
+
+.e-M_HandWrittenSign:before {
+  content: "\e737";
+}
+
+.e-M_MainFilter:before {
+  content: "\e736";
+}
+
+.e-M_Wrap:before {
+  content: "\e824";
+}
+
+.e-Unfiltered:before {
+  content: "\e73a";
+}
+
+.e-FilteredSortDesc:before {
+  content: "\e73b";
+}
+
+.e-F_SortDesc:before {
+  content: "\e73c";
+}
+
+.e-F_SortAsce:before {
+  content: "\e73d";
+}
+
+.e-FilteredSortAsce:before {
+  content: "\e73e";
+}
+
+.e-Filtered:before {
+  content: "\e73f";
+}
+
+.e-M_Clearfilter:before {
+  content: "\e738";
+}
+
+.e-M_Reapply:before {
+  content: "\e74a";
+}
+
+.e-M_Group:before {
+  content: "\e74b";
+}
+
+.e-M_Ungroup:before {
+  content: "\e74c";
+}
+
+.e-MT_PasteTextonly:before {
+  content: "\e685";
+}
+
+.e-MT_PasteStyle:before {
+  content: "\e686";
+}
+
+.e-MT_PasteImage:before {
+  content: "\e687";
+}
+
+.e-M_MergeFormatting:before {
+  content: "\e688";
+}
+
+.e-M_SpellCheck:before {
+  content: "\e689";
+}
+
+.e-M_Reopen:before {
+  content: "\e818";
+}
+
+.e-WebLayout_M:before {
+  content: "\e193";
+}
+
+.e-PrintLayout_M:before {
+  content: "\e194";
+}
+
+.e-NoBorder:before {
+  content: "\e195";
+}
+
+.e-M_DataValidation:before {
+  content: "\e196";
+}
+
+.e-M_ProtectSheet:before {
+  content: "\e197";
+}
+
+.e-M_Textform:before {
+  content: "\e198";
+}
+
+.e-M_FormProperties:before {
+  content: "\e199";
+}
+
+.e-M_Clearform:before {
+  content: "\e19a";
+}
+
+.e-M_Dropdown:before {
+  content: "\e19b";
+}
+
+.e-M_FormField:before {
+  content: "\e19c";
+}
+
+.e-M_CheckBox:before {
+  content: "\e192";
+}

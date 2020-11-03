@@ -1,0 +1,233 @@
+// skin material
+$input-skin-name: "material";
+
+// Font
+@if not variable-exists("is-source-sans-pro-loaded") {
+  //sass-lint:disable no-url-protocols,no-url-domains
+  @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700");
+}
+
+$is-source-sans-pro-loaded: "true" !default;
+$font-family: "Source Sans Pro", "Roboto", "Segoe UI", "GeezaPro",
+  "DejaVu Serif", "sans-serif", "-apple-system", "BlinkMacSystemFont";
+
+// theme colors
+$main: #F5F5F5;
+$bg-light: #FFFFFF;
+$primary: #2B3443; //Black Blue
+$primary-100: #F1F1F1; //Very Light Grey
+$primary-200: #E4E4E4; //Light Grey
+$primary-300: #9EA3AB; //Grey
+$primary-400: #8394B2; //Light Grey Blue
+$primary-500: #505465; //Grey Blue
+$primary-600: #4D5474; //Dark Grey
+$primary-700: #2B3443; //Black Blue
+$primary-800: #ED3024; //Red
+$primary-font: #FFFFFF; //White
+$accent: $primary;
+$accent-font: #fff;
+$grey-light-font: #000;
+// general
+$default-border-color: $primary-200;
+$active-bg-color: $primary-100;
+
+//gridlines
+$gridline-background: #FFFFFF;
+$gridline-border: $primary-200;
+
+// Panel styles
+// $panel-background: $primary-100;
+$panel-background: #ffffff;
+$panel-border: 1px $primary-500 solid;
+$panel-hover-border: 1px $primary solid;
+$panel-active-border: 1px $primary solid;
+$panel-border-radius: 2px;
+$panel-full-height: 100%;
+$panel-full-width: 100%;
+$panel-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+
+// Panel header styles
+$panel-header-height: 28px;
+$panel-header-padding: 6px 12px;
+$panel-header-color: $primary;
+$panel-header-font-size: 0.875rem;
+$panel-header-font-weight: 500;
+
+// AutoComplete
+$outline-border-color: $primary-500;
+$outline-hover-border-color: $primary;
+
+// Input
+$filled-input-float-label-color: $primary-500;
+$input-disable-bg-color: $primary-200;
+$input-disable-font-color: $primary-300;
+$input-placeholder: $primary-500;
+$input-border-color: $primary;
+$input-border-disable-color: $primary-500;
+$input-background-disable: #e6f4ff 0% 0% no-repeat padding-box;
+$input-border-radius: 4px;
+$input-text-color: $primary;
+$input-text-disable-color: $primary;
+$input-icon-color: $primary;
+$input-placeholder-color: $primary-500;
+$input-placeholder-disable-color: $primary-500;
+
+// Outline textbox
+$outline-border-color: $primary-500;
+$outline-input-font-color: $primary;
+$outline-input-label-font-color: $primary;
+$outline-hover-border-color: $primary;
+$outline-disabled-border-color: $primary-500;
+$outline-label-font-color-with-value: $primary;
+$outline-input-clear-icon-hover-color: $primary;
+$outline-input-clear-icon-active-color: $primary;
+
+$outline-float-label-disbale-font-color: $primary-500;
+$outline-disabled-input-font-color: $primary-300;
+$outline-input-group-disabled-color: $primary-500;
+
+// Dropdown/Multi Select
+$ddl-multiselect-skin-name: "material";
+$ddl-chip-mobile-bg: $primary-100;
+$ddl-chip-mobile-font: $primary;
+$ddl-list-box-shadow-color: rgba($primary, 0.21);
+$ddl-chip-bg-color: $primary-100;
+$ddl-chip-hover-bg-color: $primary-200;
+$ddl-chip-hover-font-color: $primary;
+$ddl-sel-hover-chip-bg-color: $primary-200;
+$ddl-sel-chip-hover-font-color: $primary;
+$ddl-chip-font-color: $primary;
+$ddl-chip-close: $primary;
+$ddl-sel-chip-font-color: $primary;
+$ddl-sel-chip-close: $primary;
+$ddl-chip-close-font: 8px;
+$ddl-chip-radius: 4px;
+
+$ddl-popup-active-focus-bg-color: $primary-100;
+$ddl-popup-active-focus-font-color: $accent;
+$ddl-popup-active-focus-border-color: $primary-100;
+$ddl-popup-active-focus-border-width: 1px;
+$ddl-popup-active-focus-shadow-item: none;
+$ddl-input-placeholder: $primary-500;
+$ddl-popup-active-border-color: $primary;
+$ddl-popup-shadow: 0 5px 5px -3px rgba($primary, 0.2),
+  0 8px 10px 1px rgba($primary, 0.14), 0 3px 14px 2px rgba($primary, 0.12);
+$ddl-multi-list-default-font-color: $primary;
+$ddl-multi-list-hover-bg-color: $primary-500;
+$ddl-delim-font-color: $primary;
+$ddl-close-icon-color: $primary;
+
+$outline-multiselect-chip-bg-color: $primary-100;
+$outline-multiselect-chip-hover-bg-color: $primary-200;
+$outline-multiselect-sel-chip-bg-color: $primary-100;
+$outline-multiselect-sel-hover-chip-bg-color: $primary-200;
+$outline-multiselect-close-icon-bg-color: $primary;
+$outline-multiselect-close-icon-hover-bg-color: $primary;
+$outline-multiselect-remains-font-color: $primary;
+$outline-multiselect-disabled-font-color: $primary-300;
+$outline-multiselect-disabled-chip-bg-color: $primary-200;
+
+$ddl-list-border-size: 1px;
+$ddl-list-bottom-border: $ddl-list-border-size;
+
+$ddl-list-border-color: #fff;
+$ddl-list-gradient-color: $primary;
+$ddl-list-bg-color: #fff;
+$ddl-list-header-bg-color: #fff;
+$ddl-list-header-border-color: #fff;
+$ddl-nodata-font-color: $primary;
+$ddl-list-default-font-color: $primary;
+$ddl-list-active-border-color: #fff;
+$ddl-list-active-font-color: $accent;
+$ddl-list-active-bg-color: $primary-100;
+$ddl-list-hover-border-color: #fff;
+$ddl-list-hover-bg-color: $primary-100;
+$ddl-list-hover-font-color: $primary;
+$ddl-list-header-font-color: $primary;
+$ddl-default-header-font-color: $primary;
+$ddl-list-focus-color: $primary-100;
+$ddl-list-focus-border: #fff;
+$ddl-multi-column-border-color: #fff;
+
+// Checkbox
+$cbox-bgcolor: #fff;
+$cbox-border-color: $primary-600;
+$cbox-border-radius: 4px;
+$cbox-check-fontsize: 12px;
+$cbox-checked-ripple-bgcolo: rgba($accent, 0.26);
+// $cbox-checkmark-bgcolor: #fff;
+// $cbox-checkmark-border-color: $primary-600;
+// $cbox-checkmark-color: $primary;
+// $cbox-checkmark-disabled-bgcolor: $primary-200;
+// $cbox-checkmark-disabled-border-color: $primary-500;
+// $cbox-checkmark-disabled-color: $primary-500;
+// $cbox-checkmark-hover-bgcolor: #fff;
+$cbox-focussed-border-color: $primary-600;
+$cbox-hover-border-color: $primary-600;
+$cbox-ripple-bgcolor: $primary-500;
+// Button
+// $btn-color: $primary;
+// $btn-font-weight: 500;
+// $btn-border: 1px solid;
+// $btn-border-color: transparent;
+// $btn-padding: 6px 12px 4px;
+// $btn-small-padding: 2px 12px 1px;
+
+// Toolbar
+$tbar-default-bg: $primary;
+
+// Menu
+$menu-ul-bgcolor: $primary;
+$menu-color: $primary-font;
+$menu-icon-hover-color: $primary;
+$menu-li-bgcolor: $primary-500;
+
+// Grid
+$grid-border-radius: 0;
+$content-bg-color: $primary-100;
+$grid-header-bg-color: $primary-100;
+$grid-header-color: $primary;
+$grid-sorted-header-color: $primary;
+$gridcontent-font-color: $primary;
+$grid-header-border-color: $primary-100;
+$grid-header-icon-color: $primary;
+$grid-hover-icon-color: $primary;
+$grid-row-selection-bg-color: $primary-100;
+$grid-row-selection-color: $primary;
+$grid-hover-bg-color: $primary-100;
+$grid-cell-selection-bg-color: $primary-100;
+$grid-cell-selection-color: $primary;
+$grid-hover-content-font-color: $primary;
+$grid-cell-border-color: $primary-100;
+
+// Pager
+$pager-color: $primary;
+
+// Tooltip
+$tooltip-drop-shadow: 0 11px 15px -7px rgba($grey-light-font, 0.2),
+  0 24px 38px 3px rgba($grey-light-font, 0.14),
+  0 9px 46px 8px rgba($grey-light-font, 0.12);
+$tooltip-content-bg-color: #fff;
+$tooltip-content-border-color: #fff;
+$tooltip-content-font-color: $primary;
+// $tooltip-default-icon-color: $grey-700;
+// $tooltip-icon-bg-normal: $primary-font;
+// $tooltip-hover-icon-color: $grey-700;
+// $tooltip-icon-bg-hover: $primary-font;
+
+
+$button-background: $primary;
+
+@mixin button-pl-icon($image: '', $size: '15px') {
+  content: "" !important;
+  display: inline-block;
+  vertical-align: sub;
+  width: $size;
+  height: $size;
+  background-size: 100% 100%;
+  background-image: $image;
+
+  @if $size == '15px' {
+    margin: 0 5px 0 0;
+  }
+}

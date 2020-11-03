@@ -1,0 +1,32 @@
+@import "variables";
+
+.breadcrumb {
+  margin: 0;
+  align-items: center;
+  min-height: 3.5rem;
+  border-bottom: 1px solid $primary-500;
+  padding: 0 1rem;
+
+  .info {
+    background-color: $primary-font;
+    border: 1px solid $primary-500;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+
+    a {
+      cursor: pointer;
+      color: $primary-500;
+    }
+
+    a:hover,
+    a.active {
+      color: $primary;
+    }
+
+    .e-icons {
+      color: $primary;
+      font-size: 0.7rem;
+      margin: 0 0.5rem;
+    }
+  }
+}

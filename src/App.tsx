@@ -1,25 +1,19 @@
+import './stylesheets/app.scss';
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Loadable from 'react-loadable';
+import Preloader from './components/Preloader';
+
+const DefaultLayout = Loadable({
+  loading: Preloader,
+  loader: () => import('./layouts/DefaultLayout'),
+});
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <DefaultLayout />
+    </Router>
   );
 }
 
