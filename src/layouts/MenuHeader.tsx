@@ -1,5 +1,5 @@
 import React, { Suspense, useState } from 'react';
-import { planningSubMenuItems, rosteringSubMenuItems } from './datasource';
+import { rosteringSubMenuItems } from './datasource';
 import { DialogComponent } from '@syncfusion/ej2-react-popups';
 import DefaultHeader from './DefaultHeader';
 import { useHistory } from 'react-router-dom';
@@ -15,11 +15,8 @@ const MenuHeader: React.FC = (props: any) => {
   const token = localStorage.getItem('access_token');
   const isPlanning = pathname.indexOf('/planning/') === 0;
   const isRostering = pathname.indexOf('/rostering/') === 0;
-  const subMenuItems = isRostering
-    ? rosteringSubMenuItems
-    : isPlanning
-    ? planningSubMenuItems
-    : [];
+  const subMenuItems = rosteringSubMenuItems;
+
   const history = useHistory();
   const onCollapse = (e: any) => {
     e.preventDefault();

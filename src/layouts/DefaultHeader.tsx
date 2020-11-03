@@ -3,6 +3,7 @@ import { NavLink, useHistory } from 'react-router-dom';
 import { ReactComponent as LogoutIcon } from '../assets/icons/logout.svg';
 import { ReactComponent as SettingIcon } from '../assets/icons/settings.svg';
 import Logo from '../assets/icons/optix-logo.png';
+import { planningHeader } from './datasource';
 interface Props {
   pathname: any;
   onSelectSettings: any;
@@ -38,11 +39,7 @@ const DefaultHeader: React.FC<any> = (props: Props) => {
     const settingClassName = `nav-link btn-setting ${isActive ? 'active' : ''}`;
     return (
       <li className="nav-item edit-disable">
-        <a
-          href="//#region "
-          className={settingClassName}
-          onClick={onSelectSettings}
-        >
+        <a href="# " className={settingClassName} onClick={onSelectSettings}>
           <SettingIcon className="navbar-nav-svg mr-3" />
           Settings
         </a>
@@ -94,9 +91,9 @@ const DefaultHeader: React.FC<any> = (props: Props) => {
         <img src={Logo} alt="" className="d-block" />
       </NavLink>
 
-      {props.isPlanning && renderHeaderLeft('Planning', props.planningHeader)}
-      {props.isRostering &&
-        renderHeaderLeft('Rostering', props.rosteringHeader)}
+      {renderHeaderLeft('Planning', planningHeader)}
+      {/* {props.isRostering &&
+        renderHeaderLeft('Rostering', props.rosteringHeader)} */}
 
       {renderHeaderRight()}
     </header>
