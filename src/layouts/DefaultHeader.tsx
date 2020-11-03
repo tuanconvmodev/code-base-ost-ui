@@ -4,15 +4,17 @@ import { ReactComponent as LogoutIcon } from '../assets/icons/logout.svg';
 import { ReactComponent as SettingIcon } from '../assets/icons/settings.svg';
 import Logo from '../assets/icons/optix-logo.png';
 import { planningHeader } from './datasource';
+import { useTranslation } from 'react-i18next';
 interface Props {
-  pathname: any;
+  pathname: string;
   onSelectSettings: any;
-  isPlanning: any;
-  isRostering: any;
+  isPlanning: boolean;
+  isRostering: boolean;
   rosteringHeader: any;
   planningHeader: any;
 }
 const DefaultHeader: React.FC<any> = (props: Props) => {
+  const { t } = useTranslation();
   const history = useHistory();
   const menuItem = (menu: any) => {
     return (
@@ -41,18 +43,15 @@ const DefaultHeader: React.FC<any> = (props: Props) => {
       <li className="nav-item edit-disable">
         <a href="# " className={settingClassName} onClick={onSelectSettings}>
           <SettingIcon className="navbar-nav-svg mr-3" />
-          Settings
+          {t('setting')}
         </a>
       </li>
     );
   };
 
-  const renderHeaderLeft = (title: any, listMenu: any) => {
-    const { pathname, onSelectSettings } = props;
-    const isPlanning = pathname.indexOf('/planning/settings/') === 0;
-    const isRostering = pathname.indexOf('/rostering/settings/') === 0;
-    const isActiveSetting = isPlanning || isRostering;
-
+  const renderHeaderLeft = (title: string, listMenu: any) => {
+    const { onSelectSettings } = props;
+    const isActiveSetting = true;
     return (
       <React.Fragment>
         <div className="navbar-title edit-disable">{title}</div>
@@ -90,11 +89,7 @@ const DefaultHeader: React.FC<any> = (props: Props) => {
       >
         <img src={Logo} alt="" className="d-block" />
       </NavLink>
-
       {renderHeaderLeft('Planning', planningHeader)}
-      {/* {props.isRostering &&
-        renderHeaderLeft('Rostering', props.rosteringHeader)} */}
-
       {renderHeaderRight()}
     </header>
   );

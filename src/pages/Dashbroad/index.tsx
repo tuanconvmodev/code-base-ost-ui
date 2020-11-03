@@ -8,10 +8,6 @@ import {
 } from '@syncfusion/ej2-react-charts';
 
 const Dashbroad: React.FC<{}> = () => {
-  // function load(args:any) {
-  //   args.smithchart.series[0].marker = {
-  //       visible: true
-  //   };
   return (
     <SmithchartComponent id="smithchart">
       <Inject services={[TooltipRender]} />
