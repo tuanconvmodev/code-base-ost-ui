@@ -6,7 +6,7 @@ import Preloader from './components/Preloader';
 
 const DefaultLayout = Loadable({
   loading: Preloader,
-  loader: () => import('./layouts/DefaultLayout'),
+  loader: () => import('./layouts/default/DefaultLayout'),
 });
 
 function App() {

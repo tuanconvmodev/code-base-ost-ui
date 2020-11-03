@@ -7,8 +7,8 @@ import {
   withRouter,
   RouteComponentProps,
 } from 'react-router-dom';
-import Preloader from '../components/Preloader';
-import routes from '../routes';
+import Preloader from '../../components/Preloader';
+import routes from '../../routes';
 
 const HeaderMenu = Loadable({
   loading: Preloader,

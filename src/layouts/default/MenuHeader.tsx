@@ -3,8 +3,8 @@ import { rosteringSubMenuItems } from './datasource';
 import { DialogComponent } from '@syncfusion/ej2-react-popups';
 import DefaultHeader from './DefaultHeader';
 import { useHistory } from 'react-router-dom';
-import Spinner from '../components/Spinner/Spinner';
-import DefaultSubMenu from '../components/SubMenu';
+import Spinner from '../../components/Spinner/Spinner';
+import DefaultSubMenu from '../../components/SubMenu';
 
 const MenuHeader: React.FC = (props: any) => {
   const [isCollapse, setIsCollapse] = useState<boolean>(true);
