@@ -24,6 +24,7 @@ const Login: React.FC = () => {
       args.percent = PROGRESS.PERCENT;
     }
     history.push('/dashbroad');
+    localStorage.setItem('access_token', 'access_token');
   };
   return (
     <div className="login login-desktop">
