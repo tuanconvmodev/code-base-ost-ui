@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink, useHistory } from 'react-router-dom';
-import { ReactComponent as LogoutIcon } from '../assets/icons/logout.svg';
-import { ReactComponent as SettingIcon } from '../assets/icons/settings.svg';
-import Logo from '../assets/icons/optix-logo.png';
+import { ReactComponent as LogoutIcon } from '../../assets/icons/logout.svg';
+import { ReactComponent as SettingIcon } from '../../assets/icons/settings.svg';
+import Logo from '../../assets/icons/optix-logo.png';
 import { planningHeader } from './datasource';
 import { useTranslation } from 'react-i18next';
 interface Props {

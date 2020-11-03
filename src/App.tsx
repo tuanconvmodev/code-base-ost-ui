@@ -1,13 +1,11 @@
 import './stylesheets/app.scss';
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Loadable from 'react-loadable';
-import Preloader from './components/Preloader';
+import loadable from '@loadable/component';
 
-const DefaultLayout = Loadable({
-  loading: Preloader,
-  loader: () => import('./layouts/default/DefaultLayout'),
-});
+export const DefaultLayout = loadable(
+  () => import('./layouts/default/DefaultLayout'),
+);
 
 function App() {
   return (

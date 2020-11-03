@@ -1,5 +1,5 @@
 import React from 'react';
-import Loadable from 'react-loadable';
+import loadable from '@loadable/component';
 import {
   Redirect,
   Route,
@@ -7,13 +7,9 @@ import {
   withRouter,
   RouteComponentProps,
 } from 'react-router-dom';
-import Preloader from '../../components/Preloader';
 import routes from '../../routes';
 
-const HeaderMenu = Loadable({
-  loading: Preloader,
-  loader: () => import('./MenuHeader'),
-});
+export const HeaderMenu = loadable(() => import('./MenuHeader'));
 
 const RouteWithSubRoutes = (route: any) => (
   <Route

@@ -1,9 +1,9 @@
-import { ReactComponent as UserIcon } from '../assets/icons/user.svg';
-import { ReactComponent as CalendarIcon } from '../assets/icons/calendar.svg';
-import { ReactComponent as RefreshIcon } from '../assets/icons/refresh.svg';
-import { ReactComponent as FlightIcon } from '../assets/icons/flight.svg';
-import { ReactComponent as ManpowerIcon } from '../assets/icons/manpower.svg';
-import { ReactComponent as GSEIcon } from '../assets/icons/gse-projection.svg';
+import { ReactComponent as UserIcon } from '../../assets/icons/user.svg';
+import { ReactComponent as CalendarIcon } from '../../assets/icons/calendar.svg';
+import { ReactComponent as RefreshIcon } from '../../assets/icons/refresh.svg';
+import { ReactComponent as FlightIcon } from '../../assets/icons/flight.svg';
+import { ReactComponent as ManpowerIcon } from '../../assets/icons/manpower.svg';
+import { ReactComponent as GSEIcon } from '../../assets/icons/gse-projection.svg';
 
 export const planningHeader = [
   {

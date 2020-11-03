@@ -1,5 +1,4 @@
-import Loadable from 'react-loadable';
-import Preloader from '../components/Preloader';
+import loadable from '@loadable/component';
 import Dashboard from '../pages/Dashboard';
 export interface IRouter {
   path: string;
@@ -9,12 +8,7 @@ export interface IRouter {
   isProtected?: boolean;
   component: React.ComponentType;
 }
-
-const Login = Loadable({
-  loading: Preloader,
-  loader: () => import('../pages/Login'),
-});
-
+export const Login = loadable(() => import('../pages/Login'));
 const routes: IRouter[] = [
   //Auth
   {
