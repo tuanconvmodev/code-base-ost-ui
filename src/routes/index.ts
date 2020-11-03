@@ -1,7 +1,7 @@
 import Loadable from 'react-loadable';
 import Preloader from '../components/Preloader';
 import Dashbroad from '../pages/Dashbroad';
-interface IRouter {
+export interface IRouter {
   path: string;
   exact?: boolean;
   name: string;

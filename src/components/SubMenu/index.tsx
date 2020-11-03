@@ -2,8 +2,8 @@ import React from 'react';
 import SubMenu from './view';
 interface Props {
   items: any;
-  onSelect: any;
-  onCollapse: any;
+  onSelect: (item: any) => void;
+  onCollapse: (item: any) => void;
   pathname: string;
 }
 const SubMenuContainer = ({ items, onSelect, onCollapse, pathname }: Props) => {

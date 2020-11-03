@@ -1,0 +1,36 @@
+.area-chart-container {
+  margin-bottom: 15px;
+  border: 1px solid #d8d8d8;
+  .ejSVGTooltip {
+    z-index: 2 !important;
+  }
+  .area-chart-tooltip {
+    padding: 15px;
+    background-color: #ffffff;
+    min-width: 120px;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+    0 6px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+    0 6px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    .field-row {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 5px;
+      .field-name {
+        display: flex;
+        flex: 2;
+        color: #000;
+        text-align: left;
+        text-transform: capitalize;
+        font-size: 14px;
+      }
+      .field-value {
+        display: flex;
+        flex: 1;
+        text-align: left;
+        font-size: 14px;
+      }
+    }
+  }
+}
